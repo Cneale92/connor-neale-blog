@@ -3,7 +3,6 @@
     --bg-color-2: #f3f0f0;
     --text-color: #0e0b0b;
     --main-color: #f8f7f5;
-    --background-img-light: url('my-blogpix-lm.png')
 }
 
 .darkMode {
@@ -24,7 +23,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--bg-color-2);
-    background-image: var(--background-img-light);
 }
 
 p, h3 {
