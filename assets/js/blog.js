@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function displayBlogPosts() {
-    blogList.innerHTML = "";
+    blogList.innerHTML = ""; // Clear previous posts
 
     const blogPosts = getBlogPostsFromLocalStorage();
     blogPosts.forEach((post, index) => {
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const blogPosts = getBlogPostsFromLocalStorage();
     blogPosts.splice(index, 1);
     localStorage.setItem("posts", JSON.stringify(blogPosts));
-    displayBlogPosts();
+    displayBlogPosts(); 
   }
 
   displayBlogPosts();
