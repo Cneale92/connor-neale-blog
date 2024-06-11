@@ -1,6 +1,6 @@
 const darkModeToggle = document.querySelector("#dark-mode-toggle");
 const displayImg = document.querySelector(".display-img");
-const backButton = document.getElementById("#back");
+const backButton = document.getElementById("back");
 
 
 const enableDarkMode = () => {
