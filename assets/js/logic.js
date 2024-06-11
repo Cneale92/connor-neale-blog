@@ -6,14 +6,14 @@ const backButton = document.getElementById("back");
 const enableDarkMode = () => {
   document.body.classList.add("darkMode");
   localStorage.setItem("darkMode", "enabled");
-  displayImg.src = "/assets/Images/blog-image.png";
+  displayImg.src = "/assets/Images/blog.png";
 };
 
 
 const disableDarkMode = () => {
   document.body.classList.remove("darkMode");
   localStorage.setItem("darkMode", null);
-  displayImg.src = "/assets/Images/blog-image.png";
+  displayImg.src = "/assets/Images/blog.png";
 };
 
 
